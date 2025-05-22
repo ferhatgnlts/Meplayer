@@ -118,6 +118,9 @@ Reklam
   padding:0px 10px;
   color:#dddddd;
   font-size:12px;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .errordiv{
