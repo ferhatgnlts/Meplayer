@@ -1,0 +1,84 @@
+/* css/music.css */
+.musiccontainer{
+  position: absolute;
+  width:100%;
+  height:100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  /*gap: 20px;*/
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+}
+
+.musiccontainer2{
+  display: flex;
+  flex-direction: column;
+}
+
+.musicnotediv {
+   background-color: #303030;
+  /* position: fixed; */ /* BUNU KALDIR */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.musicnote{
+  margin:20vw;
+}
+
+/* Play/pause button container */
+.playpausediv{
+  text-align:center;
+  margin-top:40px;
+}
+
+/* Play/pause buttons */
+.playpausediv span{
+  padding:10px;
+}
+
+/* Progress bar styling */
+#progress {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  background: #303030; /* Dark gray track */
+  border-radius: 4px;
+  margin-top:30px;
+  margin-bottom:16px;
+  /*margin-left:9%;*/
+}
+    
+#progress::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  background: #505050; /* Highlight color */
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; /* Circular thumb */
+  border: 5px solid #303030;
+}
+
+/* Duration container styling */
+.mscdurationsdiv{
+  display:flex;
+ /* align-items:center;*/
+  /*padding:0px 10%;*/
+}
+
+/* Left-aligned duration text */
+.mscdurationleft{
+  flex:1;
+  text-align:left;
+}
+
+.musicdur{
+  color:#ffffff;
+}

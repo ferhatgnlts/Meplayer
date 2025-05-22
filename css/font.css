@@ -1,0 +1,12 @@
+/* css/font.css */
+.font{
+  color:#fff;
+  font-size:20px;
+  width:100%;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding:20px;
+  font-family: "MyFont";
+  text-align:center;
+}
